@@ -1,8 +1,30 @@
 /* General styles */
 
+p {
+    font-size: 18px;
+}
+
+p.text-grey {
+    color: #777;
+}
+
 h3 {
     font-size: 26px;
     margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+table {
+    margin-top: 20px;
+}
+
+table thead {
+    background-color: #eee;
 }
 
 label {
@@ -117,9 +139,4 @@ label {
 .manage-list li small {
     color: #777;
     font-size: 16px;
-}
-
-.manage-list li p {
-    font-size: 16px;
-    font-weight: 500;
 }
