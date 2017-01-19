@@ -70,6 +70,16 @@ label {
     color: white;
 }
 
+/* Nav-tabs */
+
+.nav-tabs a span {
+    background-color: #777;
+    border-radius: 20px;
+    color: white;
+    padding: 2px 8px;
+    widows: 20px;
+}
+
 /* Messages style */
 
 .messages-container {
