@@ -1,6 +1,7 @@
 /* General styles */
 
 h3 {
+    font-size: 26px;
     margin-bottom: 30px;
 }
 
@@ -9,6 +10,20 @@ label {
     font-size: 16px;
 }
 
+.breadcrumb {
+    padding: 0;
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+.breadcrumb li:not(:first-of-type):before {
+    content: ">";
+    color: black;
+}
+
+.breadcrumb > .active {
+    color: black;
+}
 
 /* Nav style */
 .navbar-default {
@@ -78,4 +93,33 @@ label {
     font-weight: 900;
     padding: 10px;
     margin-bottom: 30px;
+}
+
+/* Manage page */
+
+.manage-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.manage-list li {
+    border-left: 10px solid #bbb;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+.manage-list li a {
+    display: block;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.manage-list li small {
+    color: #777;
+    font-size: 16px;
+}
+
+.manage-list li p {
+    font-size: 16px;
+    font-weight: 500;
 }
