@@ -31,6 +31,10 @@ table td.text-red {
     color: rgb(169, 68, 66);
 }
 
+table td span {
+    color: #999;    
+}
+
 label {
     font-weight: 400;
     font-size: 16px;
