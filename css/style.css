@@ -1,3 +1,29 @@
+/* General styles */
+
+h3 {
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+/* Nav style */
+.navbar-default {
+    background-color: rgb(220, 221, 213);
+    border-radius: 0;
+    padding: 20px;
+}
+
+.navbar-default .nav > li > a {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 30px 50px;
+}
+
 /* Messages style */
 
 .messages-container {
@@ -34,4 +60,13 @@
 .messages-container li.received p{
     background-color: #d9edf7;
     border-color: #bce8f1;
+}
+
+/* Login page */
+
+.login .btn-success {
+    font-size: 18px;
+    font-weight: 900;
+    padding: 10px;
+    margin-bottom: 30px;
 }
