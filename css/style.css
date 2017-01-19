@@ -1,0 +1,37 @@
+/* Messages style */
+
+.messages-container {
+    list-style: none;
+    padding-left: 0;
+    margin: 50px 0;
+}
+
+.messages-container li p {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 15px;
+    padding:15px;
+    margin-bottom: 5px;
+}
+
+.messages-container li span {
+    color: #aaa;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.messages-container li.sent p {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.messages-container li.received {
+    text-align: right;
+}
+
+.messages-container li.received p{
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
